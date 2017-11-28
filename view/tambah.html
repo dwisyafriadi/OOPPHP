@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Aplikasi</title>
+</head>
+<body>
+    <h1>Aplikasi Klinik Telkom</h1>
+    <p>Silahkan Isi Data Diri Terlebih dahulu</p>
+    <form action="http://localhost/mvc2/mvc/index.php?fungsi=submit" method="post" enctype="multipart/form-data">
+        <table>
+            <tr>
+                <td>Nama</td>
+                <td>:</td>
+                <td><input type="text" name="nama"></td>
+            </tr>
+            <tr>
+                <td>Nim</td>
+                <td>:</td>
+                <td><input type="text" name="nim"></td>
+            </tr>
+            <tr>
+                <td>Umur</td>
+                <td>:</td>
+                <td><input type="text" name="umur"></td>
+            </tr>
+             <tr>
+                <td>foto</td>
+                <td>:</td>
+                <td><input type="file" name="foto"></td>
+            </tr>
+            <tr>
+                <td>Keluhan</td>
+                <td>:</td>
+                <td><input type="text" name="keluhan"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="kirim"></td>
+            </tr>
+        </table>
+    </form>
+    </body>
+</html>
